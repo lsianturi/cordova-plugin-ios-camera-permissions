@@ -11,7 +11,7 @@
         <platform name="ios">
             <preference name="CAMERA_USAGE_DESCRIPTION" default="This app needs camera access"/>
             <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-                <string>$CAMERA_USAGE_DESCRIPTION</string>
+                <string>We use your camera so you can take a picture for your profile, also to upload picture of transfer proof while buying products in our app.</string>
             </config-file>
 
             <preference name="MICROPHONE_USAGE_DESCRIPTION" default="This app needs microphone access"/>
@@ -21,7 +21,7 @@
 
             <preference name="PHOTOLIBRARY_ADD_USAGE_DESCRIPTION" default="This app needs write-access to photo library"/>
             <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
-                <string>$PHOTOLIBRARY_ADD_USAGE_DESCRIPTION</string>
+                <string>We access your gallery so you can choose picture fron your gallery for your profile or to upload it as transfer proof while buying products in our app.</string>
             </config-file>
 
             <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="This app needs read/write-access photo library access"/>
